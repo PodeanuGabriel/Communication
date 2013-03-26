@@ -1,0 +1,2818 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:38:06 +0200
+Connecting to database specified by database.yml
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (22.0ms)
+Compiled bootstrap.css  (0ms)  (pid 2183)
+Compiled mail.css  (9ms)  (pid 2183)
+Compiled bootstrap-wysihtml5/core.css  (0ms)  (pid 2183)
+Compiled bootstrap-wysihtml5/index.css  (9ms)  (pid 2183)
+Compiled application.css  (70ms)  (pid 2183)
+Compiled jquery.js  (2ms)  (pid 2183)
+Compiled bootstrap-transition.js  (0ms)  (pid 2183)
+Compiled bootstrap-affix.js  (0ms)  (pid 2183)
+Compiled bootstrap-alert.js  (0ms)  (pid 2183)
+Compiled bootstrap-button.js  (0ms)  (pid 2183)
+Compiled bootstrap-carousel.js  (0ms)  (pid 2183)
+Compiled bootstrap-collapse.js  (0ms)  (pid 2183)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 2183)
+Compiled bootstrap-modal.js  (0ms)  (pid 2183)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 2183)
+Compiled bootstrap-tab.js  (0ms)  (pid 2183)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 2183)
+Compiled bootstrap-popover.js  (0ms)  (pid 2183)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 2183)
+Compiled bootstrap.js  (155ms)  (pid 2183)
+Compiled bootstrap-wysihtml5/wysihtml5.js  (2ms)  (pid 2183)
+Compiled bootstrap-wysihtml5/core.js  (9ms)  (pid 2183)
+Compiled bootstrap-wysihtml5/index.js  (48ms)  (pid 2183)
+Compiled jquery_ujs.js  (0ms)  (pid 2183)
+Compiled mail.js  (87ms)  (pid 2183)
+Compiled application.js  (365ms)  (pid 2183)
+Completed 200 OK in 549ms (Views: 548.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /jquery.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /mail.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /mail.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Served asset /application.js - 200 OK (36ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:38:07 +0200
+Compiled bootstrap-wysihtml5/wysiwyg-color.css  (0ms)  (pid 2183)
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (11ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:19 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:20 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/core.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /mail.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/index.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /mail.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/core.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /mail.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:21 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /mail.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/index.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/core.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 25ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 11ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/core.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/core.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /mail.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:22 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 29ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /mail.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/core.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/index.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/core.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /mail.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:23 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:29 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:29 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:29 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:29 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:29 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:29 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:29 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:29 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:30 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/core.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /mail.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:31 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:33 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:34 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:35 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:50 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/core.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /mail.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:43:51 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:44:08 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/core.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /mail.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Served asset /application.js - 200 OK (15ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:44:09 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-wysihtml5/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /mail.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)

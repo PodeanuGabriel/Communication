@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en">
+<body style="padding-top: 60px;" class="wysihtml5-supported">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="index.html">Comunicare</a>
+        <div class="nav-collapse collapse nav-bar-inverse-collapse">
+          <ul class="nav pull-right">
+            <li><a href="#">Iesire</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-narrow">
+    <div class="row well">
+       		
+      <%= form_tag(:controller => "mail", :action => "sendmail") do %>
+
+        <%= label_tag("from:") %>
+        <%= text_field(:mail,:from,:class =>"span5") %>
+        <%= label_tag("password") %>
+        <%= password_field(:mail,:password,:class =>"span5") %>
+        <%= label_tag("to:") %>
+        <%= text_field(:mail,:to,:class =>"span5") %>
+        <%= label_tag("subject:") %>
+        <%= text_field(:mail,:subject,:class =>"span5") %>
+        <%= label_tag("content:") %>
+        <%= text_area(:mail,:content, :id=> "mytextarea", :style => "width:576px;height:200px", :placeholder => "Introduceti text ...") %>
+
+        <script type="text/javascript">
+          $('#mytextarea').wysihtml5();
+        </script>
+
+        <br/>
+
+        <%= submit_tag("Send", :class => "btn pull-right btn-primary") %>
+        
+      <% end %>
+    </div>
+  </div>
+
+  <div class="bottom-logo">
+    <img src="../img/logo.png" width="150px" height="150px"/>
+  </div>
+	
+</body>
+</html>
