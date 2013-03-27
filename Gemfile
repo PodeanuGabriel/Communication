@@ -21,6 +21,7 @@ gem 'bootstrap-wysihtml5-rails'
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
+
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -35,7 +36,10 @@ gem 'jquery-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 gem 'tlsmail'
+
 gem 'parseconfig'
+
+gem 'omniauth-oauth2'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'

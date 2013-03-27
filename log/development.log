@@ -2816,3 +2816,1060 @@ Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
 
 Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-26 22:44:10 +0200
 Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:11:41 +0200
+Connecting to database specified by database.yml
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:12:16 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:12:17 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:12:23 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (2.6ms)
+Compiled user_sessions.css  (9ms)  (pid 3242)
+Compiled application.css  (20ms)  (pid 3242)
+Compiled user_sessions.js  (71ms)  (pid 3242)
+Compiled application.js  (85ms)  (pid 3242)
+Completed 200 OK in 284ms (Views: 283.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /mail.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /user_sessions.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /mail.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /user_sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /application.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-27 12:12:24 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:17:22 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:18:16 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:18:17 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:18:17 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:18:17 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:18:29 +0200
+Connecting to database specified by database.yml
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:18:30 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:18:31 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:19:49 +0200
+Connecting to database specified by database.yml
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:19:50 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:19:51 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:19:52 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:19:53 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 78ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /mail.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /jquery.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:22 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /mail.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-27 12:21:23 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (3ms)
+
+
+Started GET "/auth/:provider/callback" for 127.0.0.1 at 2013-03-27 12:21:36 +0200
+Processing by UserSessionsController#create as HTML
+  Parameters: {"provider"=>":provider"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/auth/provider/callback" for 127.0.0.1 at 2013-03-27 12:21:53 +0200
+Processing by UserSessionsController#create as HTML
+  Parameters: {"provider"=>"provider"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/auth" for 127.0.0.1 at 2013-03-27 12:22:01 +0200
+
+ActionController::RoutingError (No route matches [GET] "/auth"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/gabriel/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/gabriel/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/gabriel/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /user_sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /user_sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-27 12:22:07 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /user_sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /user_sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-27 12:22:08 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Connecting to database specified by database.yml
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 71ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /mail.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:16 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /mail.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /user_sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /application.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-27 12:23:17 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:23:25 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:23:26 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:23:26 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:29:28 +0200
+Processing by UserSessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+
+
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.5ms)
+  Rendered /Users/gabriel/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Processing by MailController#create as HTML
+  Rendered mail/create.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /user_sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.css?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /mail.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.css?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-wysihtml5/core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.css?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-wysihtml5/index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysihtml5.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-wysihtml5/wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/core.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-wysihtml5/core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/index.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-wysihtml5/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mail.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /mail.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /user_sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5/wysiwyg-color.css" for 127.0.0.1 at 2013-03-27 12:29:42 +0200
+Served asset /bootstrap-wysihtml5/wysiwyg-color.css - 304 Not Modified (0ms)

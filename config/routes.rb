@@ -1,10 +1,19 @@
 Broadcasting::Application.routes.draw do
 
   resources :mail
+  resources :user
 
   root :to => 'mail#create'
 
   match '/sendmail' => 'mail#sendmail'
+
+  # At the begining of your file add this routes:
+  # omniauth
+  match '/auth/:provider/callback', :to => 'user_sessions#create'
+  match '/auth/failure', :to => 'user_sessions#failure'
+
+  # Custom logout
+  match '/logout', :to => 'user_sessions#destroy'
 
 
   # The priority is based upon order of creation:
