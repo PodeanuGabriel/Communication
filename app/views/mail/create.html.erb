@@ -1,51 +1,125 @@
 
 <!doctype html>
 <html lang="en">
-<body style="padding-top: 60px;" class="wysihtml5-supported">
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="index.html">Comunicare</a>
-        <div class="nav-collapse collapse nav-bar-inverse-collapse">
-          <ul class="nav pull-right">
-            <li><a href="#">Iesire</a></li>
-          </ul>
+
+  <style>
+    body{padding-top: 60px;}
+    .ui-helper-hidden-accessible{width: 40%;position: relative;display: inline-block;line-height: 14px;padding-left: 10px;}
+
+  </style>
+
+  <body class="wysihtml5-supported">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">Comunicare</a>
+          <div class="nav-collapse collapse nav-bar-inverse-collapse">
+            <ul class="nav pull-right">
+              <li><a href="#">Iesire</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-narrow">
-    <div class="row well">
-       		
-      <%= form_tag(:controller => "mail", :action => "sendmail") do %>
+    <div class="container-narrow">
+      <div class="row well">
 
-        <%= label_tag("from:") %>
-        <%= text_field(:mail,:from,:class =>"span5") %>
-        <%= label_tag("password") %>
-        <%= password_field(:mail,:password,:class =>"span5") %>
-        <%= label_tag("to:") %>
-        <%= text_field(:mail,:to,:class =>"span5") %>
-        <%= label_tag("subject:") %>
-        <%= text_field(:mail,:subject,:class =>"span5") %>
-        <%= label_tag("content:") %>
-        <%= text_area(:mail,:content, :id=> "mytextarea", :style => "width:576px;height:200px", :placeholder => "Introduceti text ...") %>
+        <%= form_tag(:controller => "mail", :action => "sendmail") do %>
 
-        <script type="text/javascript">
-          $('#mytextarea').wysihtml5();
-        </script>
+          <%= label_tag("from:") %>
+          <%= text_field(:mail,:from,:class =>"span5") %>
+          <%= label_tag("password") %>
+          <%= password_field(:mail,:password,:class =>"span5") %>
+          <%= label_tag("to:") %>
+          <%= text_field(:mail,:to,:class =>"span5",:id =>"to") %>
+          <div>
+            <ul id="destinatari">
 
-        <br/>
+            </ul>
+          </div>
+          <%= label_tag("subject:") %>
+          <%= text_field(:mail,:subject,:class =>"span5") %>
+          <%= label_tag("content:") %>
+          <%= text_area(:mail,:content, :id=> "mytextarea", :style => "width:576px;height:200px", :placeholder => "Introduceti text ...") %>
 
-        <%= submit_tag("Send", :class => "btn pull-right btn-primary") %>
-        
-      <% end %>
+          <script type="text/javascript">
+            $('#mytextarea').wysihtml5();
+          </script>
+
+          <br/>
+
+          <%= submit_tag("Send", :class => "btn pull-right btn-primary") %>
+
+        <% end %>
+      </div>
     </div>
-  </div>
 
-  <div class="bottom-logo">
-    <img src="../img/logo.png" width="150px" height="150px"/>
-  </div>
-	
-</body>
+    <div class="bottom-logo">
+      <img src="../img/logo.png" width="150px" height="150px"/>
+    </div>
+
+    <script type="text/javascript">
+      $(function() {
+        var availableTags = [
+          "ActionScript",
+          "AppleScript",
+          "Asp",
+          "BASIC",
+          "C",
+          "C++",
+          "Clojure",
+          "COBOL",
+          "ColdFusion",
+          "Erlang",
+          "Fortran",
+          "Groovy",
+          "Haskell",
+          "Java",
+          "JavaScript",
+          "Lisp",
+          "Perl",
+          "PHP",
+          "Python",
+          "Ruby",
+          "Scala",
+          "Scheme"
+        ];
+        $("#to").autocomplete({
+          source: availableTags
+        });
+        $("#to").autocomplete( "option", "position", { my : "left top", at: "left bottom" } );
+        $("#to").autocomplete(
+          {
+            open: function( event , ui )
+            {
+
+              $("#ui-id-1").css(
+              {
+                "width":$("#to").width(),
+                "list-style":"none",
+                "background-color":"white",
+                "padding":"6px",
+                "border-radius":"5px"
+              });
+
+            },
+            
+            close: function( event , ui )
+            {
+
+              if( jQuery.inArray($("#to").val(),availableTags) != -1 )
+              {
+                $("#destinatari").append('<li><span>' + $("#to").val() + '</span></li>');
+              }
+              
+              $("#to").val('');
+
+            }
+          });
+      });
+    </script>
+
+  </body>
 </html>

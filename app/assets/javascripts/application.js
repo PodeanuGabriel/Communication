@@ -11,9 +11,11 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require jquery_ujs
+//= require jquery-ui
+//= require autocomplete-rails
 //= require bootstrap
 //= require bootstrap-button
 //= require bootstrap-wysihtml5
-//= require jquery_ujs
 //= require_tree .
 

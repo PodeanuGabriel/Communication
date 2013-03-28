@@ -7,7 +7,9 @@ class UserSessionsController < ApplicationController
   # omniauth callback method
   # After the user is
   def create
+
     omniauth = env['omniauth.auth']
+
     @user = User.find_by_uid(omniauth['uid'])
 
     if @user.nil?
