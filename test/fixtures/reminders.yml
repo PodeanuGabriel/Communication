@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  from: MyString
+  to: MyString
+  subject: MyString
+  content: MyString
+  type: 
+  interval: 1
+
+two:
+  from: MyString
+  to: MyString
+  subject: MyString
+  content: MyString
+  type: 
+  interval: 1

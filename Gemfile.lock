@@ -137,6 +137,8 @@ DEPENDENCIES
   bootstrap-wysihtml5-rails
   coffee-rails (~> 3.2.1)
   jquery-rails
+  json
+  omniauth
   omniauth-oauth2
   parseconfig
   pg

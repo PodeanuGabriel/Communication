@@ -39,9 +39,13 @@ gem 'tlsmail'
 
 gem 'parseconfig'
 
+gem 'omniauth'
+
 gem 'omniauth-oauth2'
 
 gem 'rails3-jquery-autocomplete'
+
+gem 'json'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'

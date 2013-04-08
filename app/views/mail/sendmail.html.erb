@@ -1,10 +1,39 @@
-<%#
-# To change this template, choose Tools | Templates
-# and open the template in the editor.
-%>
 
-<div>
-  Mail from: <br/> <b><%= params[:mail][:from] %></b> to <br/><b><%= params[:mail][:to] %></b>
-  with subject: <br/> <b><%= params[:mail][:subject]%></b>
-  and content: <br/><b><%= params[:mail][:content]%></b> has been sent.
-</div>
+<!doctype html>
+<html lang="en">
+
+  <style>
+    body{padding-top: 60px;}
+    .ui-helper-hidden-accessible{width: 40%;position: relative;display: inline-block;line-height: 14px;padding-left: 10px;}
+
+  </style>
+
+  <body class="wysihtml5-supported">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">Comunicare</a>
+          <div class="nav-collapse collapse nav-bar-inverse-collapse">
+            <ul class="nav pull-right">
+              <li><a href="#">Iesire</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+      <div class="row well">
+
+
+        <p style="text-align:center">Mail has been sent.</p>
+
+      </div>
+    </div>
+
+    <div class="bottom-logo">
+      <img src="../img/logo.png" width="150px" height="150px"/>
+    </div>
+ </body>
+</html>

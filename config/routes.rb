@@ -1,13 +1,18 @@
 Broadcasting::Application.routes.draw do
 
+  resources :reminders
+
+
   resources :mail
   resources :user
 
-  root :to => 'mail#create'
+  root :to => 'static_pages#index'
 
+  match '/writemail' => 'mail#create'
   match '/sendmail' => 'mail#sendmail'
 
   # At the begining of your file add this routes:
+
   # omniauth
   match '/auth/:provider/callback', :to => 'user_sessions#create'
   match '/auth/failure', :to => 'user_sessions#failure'
