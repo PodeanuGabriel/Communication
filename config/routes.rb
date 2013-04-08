@@ -8,9 +8,9 @@ Broadcasting::Application.routes.draw do
 
   root :to => 'static_pages#index'
 
-  match '/writemail' => 'mail#create'
-  match '/sendmail' => 'mail#sendmail'
-  match '/notifications' => 'notification#index'
+  match '/writemail' ,:to => 'mail#create'
+  match '/sendmail' , :to => 'mail#sendmail'
+  match '/notifications' , :to => 'notification#index'
 
   # At the begining of your file add this routes:
 
