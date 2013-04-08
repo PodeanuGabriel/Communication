@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  from: MyString
+  to: MyString
+  subject: MyString
+  content: MyString
+  interval_type: MyString
+  interval: 1
+  begin: 2013-04-08 22:13:27
+  end: 2013-04-08 22:13:27
+
+two:
+  id: 1
+  from: MyString
+  to: MyString
+  subject: MyString
+  content: MyString
+  interval_type: MyString
+  interval: 1
+  begin: 2013-04-08 22:13:27
+  end: 2013-04-08 22:13:27

@@ -1,0 +1,43 @@
+<%= render 'header' %>
+
+<h1>Listing notifications</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>From</th>
+    <th>To</th>
+    <th>Subject</th>
+    <th>Content</th>
+    <th>Interval type</th>
+    <th>Interval</th>
+    <th>Begin</th>
+    <th>End</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @notifications.each do |notification| %>
+  <tr>
+    <td><%= notification.id %></td>
+    <td><%= notification.from %></td>
+    <td><%= notification.to %></td>
+    <td><%= notification.subject %></td>
+    <td><%= notification.content %></td>
+    <td><%= notification.interval_type %></td>
+    <td><%= notification.interval %></td>
+    <td><%= notification.begin %></td>
+    <td><%= notification.end %></td>
+    <td><%= link_to 'Show', notification %></td>
+    <td><%= link_to 'Edit', edit_notification_path(notification) %></td>
+    <td><%= link_to 'Destroy', notification, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Notification', new_notification_path %>
+
+<%= render 'footer'  %>

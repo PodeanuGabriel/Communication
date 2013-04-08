@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130408103548) do
+ActiveRecord::Schema.define(:version => 20130408191327) do
 
   create_table "mails", :force => true do |t|
     t.string   "from"
@@ -21,6 +21,19 @@ ActiveRecord::Schema.define(:version => 20130408103548) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.string   "subject"
+  end
+
+  create_table "notifications", :force => true do |t|
+    t.string   "from"
+    t.string   "to"
+    t.string   "subject"
+    t.string   "content"
+    t.string   "interval_type"
+    t.integer  "interval"
+    t.datetime "begin"
+    t.datetime "end"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "reminders", :force => true do |t|

@@ -1,6 +1,6 @@
 Broadcasting::Application.routes.draw do
 
-  resources :reminders
+  resources :notifications
 
 
   resources :mail
@@ -10,6 +10,7 @@ Broadcasting::Application.routes.draw do
 
   match '/writemail' => 'mail#create'
   match '/sendmail' => 'mail#sendmail'
+  match '/notifications' => 'notification#index'
 
   # At the begining of your file add this routes:
 
