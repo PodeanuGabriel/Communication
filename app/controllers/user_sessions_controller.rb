@@ -22,8 +22,8 @@ class UserSessionsController < ApplicationController
     # Currently storing all the info
     session[:user_id] = omniauth
 
-    flash[:notice] = "Successfully logged in"
-    redirect_to '/writemail'
+    #flash[:notice] = "Successfully logged in"
+    redirect_to root_path
   end
 
   # Omniauth failure callback
